@@ -1,0 +1,96 @@
+.App {
+  margin: 20px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pages {
+  margin-left: 20px;
+}
+
+.pages button {
+  margin: 0 5px;
+  padding: 8px;
+}
+
+.pages button:not(:disabled) {
+  cursor: pointer;
+}
+
+.column-selector,
+.selector-title {
+  margin-bottom: 20px;
+}
+
+.column-selector label {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+select {
+  margin-right: 20px;
+  min-height: 34px;
+}
+
+input[type="text"] {
+  height: 28px;
+}
+
+table {
+  text-align: center;
+  background-color: #ddd;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table tr:hover {
+  background-color: #aaa;
+}
+
+table th {
+  font-weight: normal;
+  font-size: 14px;
+  background-color: #777;
+  color: #fff;
+}
+
+table th,
+table td {
+  padding: 5px;
+}
+
+table th span {
+  font-size: 20px;
+  display: block;
+}
+
+.sorted-cell {
+  background-color: #aaa;
+}
+
+.no-results {
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  border: 1px solid #000;
+}
